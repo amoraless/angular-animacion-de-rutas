@@ -1,5 +1,6 @@
-<a routerLink="/one-piece" routerLinkActive="active">One Piece</a>
 <a routerLink="/naruto" routerLinkActive="active">Naruto</a>
+<a routerLink="/one-piece" routerLinkActive="active">One Piece</a>
+
 <main [@fadeAnimation]="getRouterOutletState(o)">
   <router-outlet #o="outlet"></router-outlet>
 </main>
