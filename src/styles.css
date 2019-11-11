@@ -1,1 +1,6 @@
 /* Add application styles & imports to this file! */
+router-outlet ~ * {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

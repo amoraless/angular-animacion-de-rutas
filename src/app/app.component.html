@@ -1,4 +1,5 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<a routerLink="/one-piece" routerLinkActive="active">One Piece</a>
+<a routerLink="/naruto" routerLinkActive="active">Naruto</a>
+<main [@fadeAnimation]="getRouterOutletState(o)">
+  <router-outlet #o="outlet"></router-outlet>
+</main>
